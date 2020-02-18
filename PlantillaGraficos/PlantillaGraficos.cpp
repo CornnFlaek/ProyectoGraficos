@@ -1059,7 +1059,7 @@ void checarColisiones() {
 		
 		(posXTriangulo + .05f >= posXPiedra2 - .05f && posXTriangulo - .05f <= posXPiedra2 + 0.10 && posYTriangulo + 0.15f >= posYPiedra2 - .15f && posYTriangulo - 0.15f <= posYPiedra2 + 0.15f) || 
 		(posXTriangulo + .15f >= posXPiedra3 - .15f && posXTriangulo - .15f <= posXPiedra3 + 0.15 && posYTriangulo + 0.20f >= posYPiedra3 - .20f && posYTriangulo - 0.20f <= posYPiedra3 + 0.20f) ||
-		posXTriangulo + .15f>= posXE - .15f && posXTriangulo - .15f <= posXE + 0.15 && posYTriangulo + 0.15f >= posYE - .15f && posYTriangulo - .15f <= posYE + .15f) {
+		posXTriangulo + .05f>= posXE - .05f && posXTriangulo - .05f <= posXE + 0.05 && posYTriangulo + 0.05f >= posYE - .05f && posYTriangulo - .05f <= posYE + .05f) {
 		rojoTriangulo = 0.5f;
 		glfwDestroyWindow(window);
 		glfwTerminate();
